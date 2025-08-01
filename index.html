@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+
+  
+</head>
+<body>
+  <canvas id="demo"></canvas>
+
+  <div class="container">
+    <div class="stats-container">
+      <div class="details">
+        <h1>Todo App</h1>
+        <p class="congrat">Keep it up!</p>
+        <div id="progress">
+          <div class="progress-amount"></div>
+        </div>
+      </div>
+      <div class="stats-number">
+        <p id="numbers"></p>
+      </div>
+    </div>
+
+    <form action="">
+      <input class="inp" type="text" placeholder="Write your task">
+      <button class="btn">+</button>
+    </form>
+
+    <ul class="task-list">
+      <!-- Tasks will be dynamically inserted here -->
+    </ul>
+  </div>
+
+  <script src="app.js"></script>
+  
+</body>
+</html>
