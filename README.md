@@ -15,7 +15,7 @@ A simple and stylish Todo List built with HTML, CSS, and Vanilla JavaScript. It 
 
 ## 🖼 Preview
 
-> *(Insert screenshot or demo gif here)*
+> ![https://github.com/keyelty-dev/my-todo-list/blob/main/todo.png?raw=true]
 
 ## 🛠 Technologies Used
 
